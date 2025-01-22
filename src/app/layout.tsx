@@ -1,8 +1,10 @@
+import Header from '@/components/header/header';
+import '@/styles/globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'SLON',
-  description: 'Digital Planner, SLON',
+  title: 'Plona',
+  description: 'Plan it, Own it, Achieve it.',
 };
 
 export default function RootLayout({
@@ -12,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ko'>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}</body>
     </html>
   );
 }

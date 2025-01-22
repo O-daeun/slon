@@ -1,3 +1,3 @@
 export default function HomePage() {
-  return <div>SLON</div>;
+  return <div className="">Plona</div>;
 }
