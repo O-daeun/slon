@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pretendard: ['Pretendard', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        
+      },
+      screens: {
+        sm: '668px', // mobile
+        md: '1024px', // tablet
       },
     },
   },
